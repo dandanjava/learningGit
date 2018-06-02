@@ -17,4 +17,12 @@ git 常用命令：
 16、git checkout <分支名>  切换到指定分支上
 17、git checkout -b <分支名>  相当于上面两句组合在一起的作用，创建并切换到指定分    支
 18、git branch   查看所有分支 当前分支前面会有*号作为标识
-19、
+19、git merge <分支名>   将指定分支合并到当前分支
+20、git branch -d <分支名> 删除指定分支
+21、git log --graph  查看分支合并日志
+22、git merge --no-ff -m <合并说明> <分支名>  取消fastForward合并的合并方式
+23、git stash 如果需要临时换分支，但是当前任务又只干到一办，使用此命令可以保存当              前的修改
+24、git stash apply 恢复由stash apply 藏起来的修改
+25、git stash drop 删除由于 git stash 保存起来的修改
+26、git stash pop 恢复git stash 保存的修改并删除备份
+
