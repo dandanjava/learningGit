@@ -7,4 +7,9 @@ git 常用命令：
 6、 git reset --hard <版本号前几位|HEAD~?>  回退到指定版本或者n版本之前
 7、 git reset HEAD~n <文件名>  指定文件回退到n版本之前
 8、 git diff <文件名>   查看指定文件与当前版本库的文件有何不同
-9、 git checkout -- <文件名> 将当前文件的修改执行revert回退到版本库的状态
+9、 git checkout -- <文件名> 将当前文件的修改执行revert回退到版本库的状态(包括被                             删除的文件也能被恢复)
+10、git rm <文件名> （-f） 从git上删除指定文件，需要提交后生效
+11、ssh-keygen -t rsa -C "<邮箱地址>"  生成自己的rsa公钥和私钥
+12、git remote add origin <git仓库地址> 将本地仓库与远程仓库关联起来,远程仓库名                                         为origin
+13、git push (-u) origin master  将本地的master分支推送到远程仓库origin ,-u的作         用是将本地的master与远程的origin关联起来，以后推送或者拉取就可以监护命令
+14、
