@@ -1,0 +1,10 @@
+git 常用命令：
+1、 git add    将一个文件添加到git的暂存区（只有暂存区的修改才会被提交）
+2、 git commit -m <修改说明>    将暂存区的修改提交到git分支
+3、 git status 查看git当前的状态，会告诉你哪些文件被修改等
+4、 git log   显示git的一些提交日志
+5、 git reflog 显示之前的操作记录，可以方便的获取之前的git版本号
+6、 git reset --hard <版本号前几位|HEAD~?>  回退到指定版本或者n版本之前
+7、 git reset HEAD~n <文件名>  指定文件回退到n版本之前
+8、 git diff <文件名>   查看指定文件与当前版本库的文件有何不同
+9、 git checkout -- <文件名> 将当前文件的修改执行revert回退到版本库的状态
