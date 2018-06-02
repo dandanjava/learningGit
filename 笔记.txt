@@ -12,4 +12,9 @@ git 常用命令：
 11、ssh-keygen -t rsa -C "<邮箱地址>"  生成自己的rsa公钥和私钥
 12、git remote add origin <git仓库地址> 将本地仓库与远程仓库关联起来,远程仓库名                                         为origin
 13、git push (-u) origin master  将本地的master分支推送到远程仓库origin ,-u的作         用是将本地的master与远程的origin关联起来，以后推送或者拉取就可以监护命令
-14、
+14、git clone <远程仓库地址> 将远程仓库的代码复制到本地
+15、git branch <分支名>   创建一个新的分支
+16、git checkout <分支名>  切换到指定分支上
+17、git checkout -b <分支名>  相当于上面两句组合在一起的作用，创建并切换到指定分    支
+18、git branch   查看所有分支 当前分支前面会有*号作为标识
+19、
