@@ -2,3 +2,5 @@ my first git file
 change
 two change
 test git commit process
+增加一行中文
+孙悟空来也
