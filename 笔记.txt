@@ -25,4 +25,4 @@ git 常用命令：
 24、git stash apply 恢复由stash apply 藏起来的修改
 25、git stash drop 删除由于 git stash 保存起来的修改
 26、git stash pop 恢复git stash 保存的修改并删除备份
-
+27、
